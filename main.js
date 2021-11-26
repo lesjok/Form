@@ -1,10 +1,8 @@
 const btn = document.querySelector('button');
-const option = document.querySelector('option');
 const form = document.querySelector('form');
 const inputLogin = document.getElementById('login');
 const inputPassword = document.getElementById('password');
 const userInfo = document.getElementById('user-info');
-const passwordInfo = document.getElementById('password-info');
 
 const sendData = async (url, data) => {
   const response = await fetch(url, {
